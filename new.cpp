@@ -206,23 +206,99 @@ int main(){
   // }
 
   
-  string websitename;
-  cout<<"enter a website:";
-  cin>>websitename;
-  if(websitename=="Amazon"){
-    cout<<"service or product:";
-    cin>>websitename;
+  // string mobilename;
+  // cout<<"enter a mobilename:";
+  // cin>>mobilename;
+  // if(mobilename=="realme"){
+      
+  //     cout<<"product or sevice:";
+  //     cin>>mobilename;
+  //     if(mobilename=="product"){
+        
+  //       cout<<"13pro, 11pro, 12pro:";
+  //       cin>>mobilename;
+  //       if(mobilename=="11pro"){
+  //         cout<<20000;
+  //       }else if(mobilename=="12pro"){
+  //         cout<<25000;
+  //       }else if(mobilename=="13pro"){
+  //         cout<<30000;
+  //       }else{
+  //         cout<<"invalid input";
+  //       }
+  //     }else if(mobilename=="service"){
+  //       cout<<"not available";
+  //     }else{
+  //       cout<<"invalid input";
+  //     }
+  // }else{
+  //   cout<<"invalid input";
+  // }
 
-    if(websitename=="product"){
-    cout<<"shoes or geans:";
-    cin>>websitename;
-     if(websitename==)
+  // string website;
+  // cout<<"enter a website name:";
+  // cin>>website;
+  // if(website=="Amazon"){
+    
+  //   cout<<"service or product:";
+  //   cin>>website;
+  //   if(website=="product"){
+      
+  //     cout<<"enter a product shoes or geans:";
+  //     cin>>website;
+  //     if(website=="shoes"){
+  //       cout<<"$1500";
+  //     }else if(website=="geans"){
+  //       cout<<"$2500";
+  //     }else{
+  //       cout<<"invalid input";
+  //     }
+
+  //   }else if(website=="service"){
+  //     cout<<"not available";
+
+  //   }else{
+  //     cout<<"invalid input";
+  //   }
+
+  // }else{
+  //   cout<<"invalid input";
+  // }
+
+  string company;
+  cout<<"enter a company name:";
+  cin>>company;
+  if(company=="google"){
+    int salary;
+    int ans;
+    cout<<"enter a salary:";
+    cin>>salary;
+    if(salary>0 && salary<=20000){
+      ans=salary*10/100;
+      salary+=ans;
+      cout<<salary;
     }
-  }else{
+    else if(salary>20000 && salary<=60000){
+      ans=salary*15/100;
+      salary+=ans;
+      cout<<salary;
+
+    }
+    else if(salary>60000){
+      ans=salary*20/100;
+      salary+=ans;
+      cout<<salary;
+
+    }
+    else{
+      cout<<"invalid input";
+    }
+  }
+  else{
     cout<<"invalid input";
   }
 
-    
+
 }
 
 
