@@ -6,11 +6,11 @@ int main(){
 
 
  //Declare variables of all basic data types and initialize them with values
-  // int a,b;
-  // a = 2;
-  // b = 3;
-  // cout<<a<<"=\tvalue of a"<<endl;
-  // cout<<b<<"=\tvalue of b"<<endl;
+  int a,b;
+  a = 2;
+  b = 3;
+  cout<<a<<"=\tvalue of a"<<endl;
+  cout<<b<<"=\tvalue of b"<<endl;
 
 
   //create a program that takes input from the user for each data type and displays the entered values
@@ -265,38 +265,105 @@ int main(){
   //   cout<<"invalid input";
   // }
 
-  string company;
-  cout<<"enter a company name:";
-  cin>>company;
-  if(company=="google"){
-    int salary;
-    int ans;
-    cout<<"enter a salary:";
-    cin>>salary;
-    if(salary>0 && salary<=20000){
-      ans=salary*10/100;
-      salary+=ans;
-      cout<<salary;
-    }
-    else if(salary>20000 && salary<=60000){
-      ans=salary*15/100;
-      salary+=ans;
-      cout<<salary;
+  // string company;
+  // cout<<"enter a company name:";
+  // cin>>company;
+  // if(company=="google"){
+  //   int salary;
+  //   int ans;
+  //   cout<<"enter a salary:";
+  //   cin>>salary;
+  //   if(salary>0 && salary<=20000){
+  //     ans=salary*10/100;
+  //     salary+=ans;
+  //     cout<<salary;
+  //   }
+  //   else if(salary>20000 && salary<=60000){
+  //     ans=salary*15/100;
+  //     salary+=ans;
+  //     cout<<salary;
 
-    }
-    else if(salary>60000){
-      ans=salary*20/100;
-      salary+=ans;
-      cout<<salary;
+  //   }
+  //   else if(salary>60000){
+  //     ans=salary*20/100;
+  //     salary+=ans;
+  //     cout<<salary;
 
-    }
-    else{
-      cout<<"invalid input";
-    }
-  }
-  else{
-    cout<<"invalid input";
-  }
+  //   }
+  //   else{
+  //     cout<<"invalid input";
+  //   }
+  // }
+  // else{
+  //   cout<<"invalid input";
+  // }
+
+
+//   int num;
+//   cout<<"enter a number:";
+//   cin>>num;
+//   if(num==1){
+//         cout<<"enter a number2:";
+//     cin>>num;
+//     if(num==2){
+      
+//       cout<<"enter a number3:";
+//       cin>>num;
+//       if(num==4){
+//         cout<<"reached";
+//       }else{
+//         cout<<"invalid input";
+//       }
+
+//     }
+//     else if(num==3){
+      
+//       cout<<"enter a number3:";
+//       cin>>num;
+//       if(num==4){
+//         cout<<"reached";
+//       }
+//       else{
+//         cout<<"invalid input";
+//       }
+
+//     }
+//     else if(num==4){
+//        cout<<"reached";
+//     }
+//     else{
+//       cout<<"invalid input";
+//     }
+
+//   }else{
+//     cout<<"invalid input:";
+//   }
+
+// int a,b;
+// cout<<"enter a first number:"<<endl;
+// cin>>a;
+
+// cout<<"enter a second number:"<<endl;
+// cin>>b;
+
+// char c;
+// cout<<"enter a operator:"<<endl;
+// cin>>c;
+
+// switch(a,b,c){
+//   case '1':cout<<a+b;
+//   break;
+//   case '2':cout<<a-b;
+//   break;
+//   case '3':cout<<a*b;
+//   break;
+//   case '4':cout<<b/a;
+//   break;
+//   case '5':cout<<b%a;
+//   break;
+//   default:cout<<"invalid input";
+  
+// }
 
 
 }
