@@ -1,16 +1,16 @@
 #include<iostream>
 using namespace std;
 int main(){
-  //write a program to display the sizes of all fundamental data tyoes in c++
+cout<<"hello world";
 
 
 
  //Declare variables of all basic data types and initialize them with values
-  int a,b;
-  a = 2;
-  b = 3;
-  cout<<a<<"=\tvalue of a"<<endl;
-  cout<<b<<"=\tvalue of b"<<endl;
+  // int a,b;
+  // a = 2;
+  // b = 3;
+  // cout<<a<<"=\tvalue of a"<<endl;
+  // cout<<b<<"=\tvalue of b"<<endl;
 
 
   //create a program that takes input from the user for each data type and displays the entered values
