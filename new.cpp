@@ -6,60 +6,60 @@ int main(){
 
 
  //Declare variables of all basic data types and initialize them with values
-  int a,b;
-  a = 2;
-  b = 3;
-  cout<<a<<"=\tvalue of a"<<endl;
-  cout<<b<<"=\tvalue of b"<<endl;
+  // int a,b;
+  // a = 2;
+  // b = 3;
+  // cout<<a<<"=\tvalue of a"<<endl;
+  // cout<<b<<"=\tvalue of b"<<endl;
 
 
   //create a program that takes input from the user for each data type and displays the entered values
-  int num1;
-  cout<<"enter a num1 = "<<endl;
-  cin>>num1;
-  float num2;
-  cout<<"enter a num2 = "<<endl;
-  cin>>num2;
-  double num3;
-  cout<<"enter a num3 = "<<endl;
-  cin>>num3;
-  bool value;
-  cout<<"enter a value = "<<endl;
-  cin>>value;
-  char character;
-  cout<<"enter a character = "<<endl;
-  cin>>character;
+  // int num1;
+  // cout<<"enter a num1 = "<<endl;
+  // cin>>num1;
+  // float num2;
+  // cout<<"enter a num2 = "<<endl;
+  // cin>>num2;
+  // double num3;
+  // cout<<"enter a num3 = "<<endl;
+  // cin>>num3;
+  // bool value;
+  // cout<<"enter a value = "<<endl;
+  // cin>>value;
+  // char character;
+  // cout<<"enter a character = "<<endl;
+  // cin>>character;
 
 
   //write a program to calculate the area of circle using float and double data types
-  // float pi=3.14,radius ,area;
-  // radius = 2;
-  // area = pi*radius*radius;
-  // cout<<"area of circle="<<area<<endl;
+  float pi=3.14,radius ,area;
+  radius = 2;
+  area = pi*radius*radius;
+  cout<<"area of circle="<<area<<endl;
 
   //create a  program to demonstrate the use of bool data types
    
 
    //write a program to demondtrate arithmetic operator
-  //  int a = 2;
-  //  int b = 4;
-  //  cout<<a+b<<endl;
-  //  cout<<a-b<<endl;
-  //  cout<<a*b<<endl;
-  //  cout<<b/a<<endl;
-  //  cout<<b%a<<endl;
+   int a = 2;
+   int b = 4;
+   cout<<a+b<<endl;
+   cout<<a-b<<endl;
+   cout<<a*b<<endl;
+   cout<<b/a<<endl;
+   cout<<b%a<<endl;
 
    //implement a calculator using basic operator(+,-,*,/,%)
-  //  int num1, num2;
-  //  cout<<"enter a num1:"<<endl;
-  //  cin>>num1;
-  //  cout<<"enter a num2:"<<endl;
-  //  cin>>num2;
-  //  cout<<"num1+num2:"<<num1+num2<<endl;
-  //  cout<<"num1-num2:"<<num1-num2<<endl;
-  //  cout<<"num1*num2:"<<num1*num2<<endl;
-  //  cout<<"num2/num1:"<<num2/num1<<endl;
-  //  cout<<"num2%num1:"<<num2%num1<<endl;
+   int num1, num2;
+   cout<<"enter a num1:"<<endl;
+   cin>>num1;
+   cout<<"enter a num2:"<<endl;
+   cin>>num2;
+   cout<<"num1+num2:"<<num1+num2<<endl;
+   cout<<"num1-num2:"<<num1-num2<<endl;
+   cout<<"num1*num2:"<<num1*num2<<endl;
+   cout<<"num2/num1:"<<num2/num1<<endl;
+   cout<<"num2%num1:"<<num2%num1<<endl;
 
    //demonstrate use of increment and decrement operator
   //  int c = 2;

@@ -1,5 +1,10 @@
-int a,b;
-  a = 2;
-  b = 3;
-  cout<<a<<"=\tvalue of a"<<endl;
-  cout<<b<<"=\tvalue of b"<<endl;
+int num1, num2;
+   cout<<"enter a num1:"<<endl;
+   cin>>num1;
+   cout<<"enter a num2:"<<endl;
+   cin>>num2;
+   cout<<"num1+num2:"<<num1+num2<<endl;
+   cout<<"num1-num2:"<<num1-num2<<endl;
+   cout<<"num1*num2:"<<num1*num2<<endl;
+   cout<<"num2/num1:"<<num2/num1<<endl;
+   cout<<"num2%num1:"<<num2%num1<<endl;
