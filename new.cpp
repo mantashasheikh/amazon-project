@@ -1,34 +1,34 @@
 #include<iostream>
 using namespace std;
 int main(){
-cout<<"hello world";
+// cout<<"hello world";
 
 
 
  //Declare variables of all basic data types and initialize them with values
-  // int a,b;
-  // a = 2;
-  // b = 3;
-  // cout<<a<<"=\tvalue of a"<<endl;
-  // cout<<b<<"=\tvalue of b"<<endl;
+  int a,b;
+  a = 2;
+  b = 3;
+  cout<<a<<"=\tvalue of a"<<endl;
+  cout<<b<<"=\tvalue of b"<<endl;
 
 
   //create a program that takes input from the user for each data type and displays the entered values
-  // int num1;
-  // cout<<"enter a num1 = "<<endl;
-  // cin>>num1;
-  // float num2;
-  // cout<<"enter a num2 = "<<endl;
-  // cin>>num2;
-  // double num3;
-  // cout<<"enter a num3 = "<<endl;
-  // cin>>num3;
-  // bool value;
-  // cout<<"enter a value = "<<endl;
-  // cin>>value;
-  // char character;
-  // cout<<"enter a character = "<<endl;
-  // cin>>character;
+  int num1;
+  cout<<"enter a num1 = "<<endl;
+  cin>>num1;
+  float num2;
+  cout<<"enter a num2 = "<<endl;
+  cin>>num2;
+  double num3;
+  cout<<"enter a num3 = "<<endl;
+  cin>>num3;
+  bool value;
+  cout<<"enter a value = "<<endl;
+  cin>>value;
+  char character;
+  cout<<"enter a character = "<<endl;
+  cin>>character;
 
 
   //write a program to calculate the area of circle using float and double data types

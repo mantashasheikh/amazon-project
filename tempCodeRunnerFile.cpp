@@ -1,8 +1,5 @@
- // int a = -45;
-  // if (a>0){
-  //   cout<<a<<": is positive";
-  // } else if(a<0){
-  //   cout<<a<<": is negative";
-  // }else{
-  //   cout<<a<<": is zero";
-  // }
+int a,b;
+  a = 2;
+  b = 3;
+  cout<<a<<"=\tvalue of a"<<endl;
+  cout<<b<<"=\tvalue of b"<<endl;
