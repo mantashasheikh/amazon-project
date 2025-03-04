@@ -1,10 +1,4 @@
-int num1, num2;
-   cout<<"enter a num1:"<<endl;
-   cin>>num1;
-   cout<<"enter a num2:"<<endl;
-   cin>>num2;
-   cout<<"num1+num2:"<<num1+num2<<endl;
-   cout<<"num1-num2:"<<num1-num2<<endl;
-   cout<<"num1*num2:"<<num1*num2<<endl;
-   cout<<"num2/num1:"<<num2/num1<<endl;
-   cout<<"num2%num1:"<<num2%num1<<endl;
+float pi=3.14,radius ,area;
+  // radius = 2;
+  // area = pi*radius*radius;
+  // cout<<"area of circle="<<area<<endl;

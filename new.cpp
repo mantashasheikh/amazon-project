@@ -32,34 +32,34 @@ int main(){
 
 
   //write a program to calculate the area of circle using float and double data types
-  float pi=3.14,radius ,area;
-  radius = 2;
-  area = pi*radius*radius;
-  cout<<"area of circle="<<area<<endl;
+  // float pi=3.14,radius ,area;
+  // radius = 2;
+  // area = pi*radius*radius;
+  // cout<<"area of circle="<<area<<endl;
 
   //create a  program to demonstrate the use of bool data types
    
 
    //write a program to demondtrate arithmetic operator
-   int a = 2;
-   int b = 4;
-   cout<<a+b<<endl;
-   cout<<a-b<<endl;
-   cout<<a*b<<endl;
-   cout<<b/a<<endl;
-   cout<<b%a<<endl;
+  //  int a = 2;
+  //  int b = 4;
+  //  cout<<a+b<<endl;
+  //  cout<<a-b<<endl;
+  //  cout<<a*b<<endl;
+  //  cout<<b/a<<endl;
+  //  cout<<b%a<<endl;
 
    //implement a calculator using basic operator(+,-,*,/,%)
-   int num1, num2;
-   cout<<"enter a num1:"<<endl;
-   cin>>num1;
-   cout<<"enter a num2:"<<endl;
-   cin>>num2;
-   cout<<"num1+num2:"<<num1+num2<<endl;
-   cout<<"num1-num2:"<<num1-num2<<endl;
-   cout<<"num1*num2:"<<num1*num2<<endl;
-   cout<<"num2/num1:"<<num2/num1<<endl;
-   cout<<"num2%num1:"<<num2%num1<<endl;
+  //  int num1, num2;
+  //  cout<<"enter a num1:"<<endl;
+  //  cin>>num1;
+  //  cout<<"enter a num2:"<<endl;
+  //  cin>>num2;
+  //  cout<<"num1+num2:"<<num1+num2<<endl;
+  //  cout<<"num1-num2:"<<num1-num2<<endl;
+  //  cout<<"num1*num2:"<<num1*num2<<endl;
+  //  cout<<"num2/num1:"<<num2/num1<<endl;
+  //  cout<<"num2%num1:"<<num2%num1<<endl;
 
    //demonstrate use of increment and decrement operator
   //  int c = 2;
@@ -364,6 +364,77 @@ int main(){
 //   default:cout<<"invalid input";
   
 // }
+
+// int time=15;
+// if(time<12){
+//   cout<<"good morning";
+// }else if(time<18){
+//   cout<<"good day";
+// }else{
+//   cout<<"good evening";
+// }
+
+// string password;
+// cout<<"enter a password";
+// cin>>password;
+// if(password=="1234"){
+//   cout<<"balance check, withdraw, deposite";
+//   if(password=="balance check"){
+//     cout<<"balance=200000";
+//   }else if(password=="withdraw"){
+//     char c;
+//     cout<<"enter amount:";
+//     cin>>password;
+//     cout<<20000-password;
+//   }else if(password=="deposite"){
+//     cout<<"enter amount:";
+//     cin>>password;
+//     cout<<20000+password;
+
+//   }
+// }
+// else{
+//   cout<<"invalid password";
+// }
+
+
+//swapping
+
+// int a=20;
+// int b=10;
+// cout<<a<<" "<<b<<endl;
+// a = a + b;
+// b = a - b;
+// a = a - b;
+// cout<<a<<" "<<b<<endl;
+
+int num1 = 12;
+int num2 = 40;
+cout<<num1<<" "<<num2<<endl;
+num1 = num1 * num2;
+num2 = num1/num2;
+num1 = num1/num2;
+cout<<num1<<" "<<num2<<endl;
+
+int n1 = 30;
+int n2 = 20;
+cout<<n1<<" "<<n2<<endl;
+int temp;
+temp = n1;
+n1 = n2;
+n2 = temp;
+cout<<n1<<" "<<n2<<endl;
+
+//reverse
+int a = 1234;
+
+
+
+
+
+
+
+
 
 
 }
