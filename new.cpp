@@ -408,26 +408,54 @@ int main(){
 // a = a - b;
 // cout<<a<<" "<<b<<endl;
 
-int num1 = 12;
-int num2 = 40;
-cout<<num1<<" "<<num2<<endl;
-num1 = num1 * num2;
-num2 = num1/num2;
-num1 = num1/num2;
-cout<<num1<<" "<<num2<<endl;
 
-int n1 = 30;
-int n2 = 20;
-cout<<n1<<" "<<n2<<endl;
-int temp;
-temp = n1;
-n1 = n2;
-n2 = temp;
-cout<<n1<<" "<<n2<<endl;
+// int num1 = 12;
+// int num2 = 40;
+// cout<<num1<<" "<<num2<<endl;
+// num1 = num1 * num2;
+// num2 = num1/num2;
+// num1 = num1/num2;
+// cout<<num1<<" "<<num2<<endl;
 
-//reverse
-int a = 1234;
 
+// int n1 = 30;
+// int n2 = 20;
+// cout<<n1<<" "<<n2<<endl;
+// int temp;
+// temp = n1;
+// n1 = n2;
+// n2 = temp;
+// cout<<n1<<" "<<n2<<endl;
+
+
+// sum the digit of a number
+// num=2561
+// output= 14
+// int sum=0;
+// int num=2561;
+// while(num>0){
+//   int digit = num%10;
+//   sum += digit;
+//   num /= 10;
+// }
+// cout<<sum;
+
+
+// count the digit in an number
+// ex = 5261
+// output = 4
+int num = 2561;
+int count = 0;
+while(num>0){
+  count++;
+  num = num/10;
+}
+cout<<count;
+
+
+// find the greatest digit in a number
+// num = 2471
+// output = 7
 
 
 
