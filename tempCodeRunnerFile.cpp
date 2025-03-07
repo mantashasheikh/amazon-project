@@ -1,8 +1,7 @@
-int sum=0;
-// int num=2561;
-// while(num>0){
-//   int digit = num%10;
-//   sum += digit;
-//   num /= 10;
+int num = 5;
+// int ans = 1;
+// for(int i = 1 ; i<=num; i++){
+//   ans = ans * i;
 // }
-// cout<<sum;
+// cout<<ans;
+

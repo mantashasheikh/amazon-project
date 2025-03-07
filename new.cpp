@@ -431,6 +431,7 @@ int main(){
 // sum the digit of a number
 // num=2561
 // output= 14
+
 // int sum=0;
 // int num=2561;
 // while(num>0){
@@ -444,18 +445,79 @@ int main(){
 // count the digit in an number
 // ex = 5261
 // output = 4
-int num = 2561;
-int count = 0;
-while(num>0){
-  count++;
-  num = num/10;
-}
-cout<<count;
+
+// int num = 2561;
+// int count = 0;
+// while(num>0){
+//   count++;
+//   num = num/10;
+// }
+// cout<<count;
 
 
 // find the greatest digit in a number
 // num = 2471
 // output = 7
+// int num = 2471;
+// int max = 0;
+// while(num>0){
+//   int digit = num%10;
+//   if(digit>max){
+//     max=digit;
+//     }
+//   num = num/10;
+//   }
+//   cout<<max;
+
+
+ //find the smallest digit in a number
+// num = 2471
+// output =1
+
+// int num = 2471;
+// int min = 9;
+// while(num>0){
+//   int digit = num%10;
+//   if(digit<min){
+//     min=digit;
+//   }
+//   num = num/10;
+
+// }
+// cout<<min;
+
+
+// check the given number is palindrome or not
+// int n=121;
+// int p = 0;
+// int r;
+// int temp;
+// temp = n;
+// while(n>0){
+//   r = n%10;
+//   p = p*10+r;
+//   n = n/10;
+// }
+
+// if(temp==p){
+//   cout<<temp<<":is a palindrome";
+// }
+// else{
+//   cout<<temp<<"is not a palindrome";
+// }
+
+// write factorial of a number
+// int num = 5;
+// int ans = 1;
+// for(int i = 1 ; i<=num; i++){
+//   ans = ans * i;
+// }
+// cout<<ans;
+
+// check the number is armstrong
+
+
+
 
 
 
