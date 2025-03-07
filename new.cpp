@@ -14,7 +14,7 @@ int main(){
 
 
   //create a program that takes input from the user for each data type and displays the entered values
-  // int num1;
+  
   // cout<<"enter a num1 = "<<endl;
   // cin>>num1;
   // float num2;
@@ -77,14 +77,14 @@ int main(){
    
    
    //write a program to demonstrate two numbers using arithmetic operator
-  //  int k = 100;
-  //  int l = 200;
-  //  k = k + l ;
-  //  l = k - l;
-  //  k = k - l;
-  //  cout<<"the value of l is:"<<l<<endl;
-  //  cout<<"the value of k is:"<<k<<endl;
-
+//    int k = 100;
+//    int l = 200;
+//    k = k + l ;
+//    l = k - l;
+//    k = k - l;
+//    cout<<"the value of l is:"<<l<<endl;
+//    cout<<"the value of k is:"<<k<<endl;
+// int num1;
 
 
 
@@ -299,45 +299,45 @@ int main(){
   // }
 
 
-//   int num;
-//   cout<<"enter a number:";
-//   cin>>num;
-//   if(num==1){
-//         cout<<"enter a number2:";
-//     cin>>num;
-//     if(num==2){
+  // int num;
+  // cout<<"enter a number:";
+  // cin>>num;
+  // if(num==1){
+  //       cout<<"enter a number2:";
+  //   cin>>num;
+  //   if(num==2){
       
-//       cout<<"enter a number3:";
-//       cin>>num;
-//       if(num==4){
-//         cout<<"reached";
-//       }else{
-//         cout<<"invalid input";
-//       }
+  //     cout<<"enter a number3:";
+  //     cin>>num;
+  //     if(num==4){
+  //       cout<<"reached";
+  //     }else{
+  //       cout<<"invalid input";
+  //     }
 
-//     }
-//     else if(num==3){
+  //   }
+  //   else if(num==3){
       
-//       cout<<"enter a number3:";
-//       cin>>num;
-//       if(num==4){
-//         cout<<"reached";
-//       }
-//       else{
-//         cout<<"invalid input";
-//       }
+  //     cout<<"enter a number3:";
+  //     cin>>num;
+  //     if(num==4){
+  //       cout<<"reached";
+  //     }
+  //     else{
+  //       cout<<"invalid input";
+  //     }
 
-//     }
-//     else if(num==4){
-//        cout<<"reached";
-//     }
-//     else{
-//       cout<<"invalid input";
-//     }
+  //   }
+  //   else if(num==4){
+  //      cout<<"reached";
+  //   }
+  //   else{
+  //     cout<<"invalid input";
+  //   }
 
-//   }else{
-//     cout<<"invalid input:";
-//   }
+  // }else{
+  //   cout<<"invalid input:";
+  // }
 
 // int a,b;
 // cout<<"enter a first number:"<<endl;
@@ -427,6 +427,63 @@ int main(){
 // n2 = temp;
 // cout<<n1<<" "<<n2<<endl;
 
+// reverse
+
+// int num1;
+// cout<<"enter a number:";
+// cin>>num1;
+// int rev=0;
+// int a=num1%10;
+// rev=rev*10+a;
+// num1=num1/10;
+// a=num1%10;
+// rev=rev*10+a;
+// num1=num1/10;
+// a=num1%10;
+// rev=rev*10+a;
+// num1=num1/10;
+// rev=rev*10+num1;
+// cout<<rev<<endl;
+
+
+// write a program to print number from 1 to 10 (using do while loop, while loop, for loop )
+// do while loop
+
+// int num=1;
+// do{
+//   cout<<num<<endl;
+//   num++;
+// }
+// while(num<=10);
+
+// while
+
+// int num=1;
+// while(num<=10){
+//   cout<<num;
+//   num++;
+// }
+
+// for loop
+
+// for(int num=1; num<=10; num++){
+//   cout<<num;
+// }
+
+// write a program to print reverse of a given number
+
+// int num;
+// cout<<"enter a number:";
+// cin>>num;
+// int rev=0;
+
+// while(num>0){
+//   int digit=num%10;
+//   rev=rev*10+digit;
+//   num=num/10;
+// }
+// cout<<rev;
+
 
 // sum the digit of a number
 // num=2561
@@ -440,6 +497,8 @@ int main(){
 //   num /= 10;
 // }
 // cout<<sum;
+
+
 
 
 // count the digit in an number
@@ -488,22 +547,20 @@ int main(){
 
 
 // check the given number is palindrome or not
-// int n=121;
-// int p = 0;
-// int r;
-// int temp;
-// temp = n;
-// while(n>0){
-//   r = n%10;
-//   p = p*10+r;
-//   n = n/10;
+// int num,rev=0,temp;
+// cout<<"enter a number:";
+// cin>>num;
+// temp=num;
+// while(num>0){
+//   int digit=num%10;
+//   rev=rev*10+digit;
+//   num=num/10;
 // }
-
-// if(temp==p){
-//   cout<<temp<<":is a palindrome";
+// if(temp==rev){
+//   cout<<"palindrome";
 // }
 // else{
-//   cout<<temp<<"is not a palindrome";
+//   cout<<"not a palindrome";
 // }
 
 // write factorial of a number
@@ -515,6 +572,38 @@ int main(){
 // cout<<ans;
 
 // check the number is armstrong
+// int num,ans=0,temp;
+// cout<<"enter a number:";
+// cin>>num;
+// temp=num;
+// while(num>0){
+//   int digit=num%10;
+//   ans+=digit*digit*digit;
+//   num/=10;
+// }
+// if(ans==temp){
+//   cout<<"armstrong";
+// }
+// else{
+//   cout<<"not an armstrong";
+// }
+
+// check the number is prime or not
+int num;
+cout<<"enter a number";
+cin>>num;
+int count=0;
+for(int i=1;i<=num;i++){
+  if(num%i==0){
+    count++;
+  }
+}
+if(count==2){
+  cout<<"prime number";
+}
+else{
+  cout<<"not a prime number";
+}
 
 
 
