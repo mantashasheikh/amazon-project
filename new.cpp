@@ -563,6 +563,7 @@ int main(){
 //   cout<<"not a palindrome";
 // }
 
+
 // write factorial of a number
 // int num = 5;
 // int ans = 1;
@@ -571,6 +572,7 @@ int main(){
 // }
 // cout<<ans;
 
+
 // check the number is armstrong
 // int num,ans=0,temp;
 // cout<<"enter a number:";
@@ -578,7 +580,7 @@ int main(){
 // temp=num;
 // while(num>0){
 //   int digit=num%10;
-//   ans+=digit*digit*digit;
+//   ans+=digit*digit*digit*digit;
 //   num/=10;
 // }
 // if(ans==temp){
@@ -588,22 +590,40 @@ int main(){
 //   cout<<"not an armstrong";
 // }
 
+
 // check the number is prime or not
-int num;
-cout<<"enter a number";
-cin>>num;
-int count=0;
-for(int i=1;i<=num;i++){
-  if(num%i==0){
-    count++;
-  }
+// int num;
+// cout<<"enter a number";
+// cin>>num;
+// int count=0;
+// for(int i=1;i<=num;i++){
+//   if(num%i==0){
+//     count++;
+//   }
+// }
+// if(count==2){
+//   cout<<"prime number";
+// }
+// else{
+//   cout<<"not a prime number";
+// }
+
+
+// write a program to fintd the piwer 
+ int num;
+ cout<<"enter a number:";
+ cin>>num;
+ int power;
+cout<<"enter a power";
+cin>>power;
+int ans=1;
+for(int i=1; i<=power; i++){
+ ans*=num;
 }
-if(count==2){
-  cout<<"prime number";
-}
-else{
-  cout<<"not a prime number";
-}
+cout<<ans;
+
+
+
 
 
 
