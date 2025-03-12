@@ -609,18 +609,144 @@ int main(){
 // }
 
 
-// write a program to fintd the piwer 
- int num;
- cout<<"enter a number:";
- cin>>num;
- int power;
-cout<<"enter a power";
-cin>>power;
-int ans=1;
-for(int i=1; i<=power; i++){
- ans*=num;
+// write a program to find the power 
+//  int num;
+//  cout<<"enter a number:";
+//  cin>>num;
+//  int power;
+// cout<<"enter a power";
+// cin>>power;
+// int ans=1;
+// for(int i=1; i<=power; i++){
+//  ans*=num;
+// }
+// cout<<ans;
+
+
+
+// write a program to print Ap series
+int a,d,n;
+a=3;
+d=3;
+n=10;
+int AP;
+for(int i=1;i<=n;i++){
+  AP=a+(i-1)*d;
+  cout<<AP<<" ";
 }
-cout<<ans;
+
+// write a program to print gp series
+
+
+// write a program to print pattern
+for(int r=1;r<=5;r++){
+  for(int c=1;c<=5;c++){
+    if(c<=r){
+      cout<<"*";
+    }else{
+      cout<<" ";
+    }
+  }
+  cout<<endl;
+}
+
+// write a program to print reverse pattern
+for(int r=1; r<=5; r++){
+  for(int c=1;c<=5;c++){
+    if(c>=r){
+      cout<<"*";
+    }else{
+      cout<<" ";
+    }
+  }cout<<endl;
+}
+
+// write a program to print a pattern
+for(int r=1;r<=5;r++){
+  for(int c=1;c<=5;c++){
+    if(c>=6-r){
+      cout<<"*";
+    }else{
+      cout<<" ";
+    }
+  }cout<<endl;
+}
+
+
+// write a program to print a reverse pattern 
+for(int r=1;r<=5;r++){
+  for(int c=1;c<=5;c++){
+    if(c<=6-r){
+      cout<<"*";
+    }else{
+      cout<<" ";
+    }
+  }cout<<endl;
+}
+
+//write a program to print a pyramid
+int num =5;
+for(int r=1;r<=num;r++){
+  for(int c=1;c<=num*2;c++){
+    if(c>=num+1-r && c<=num-1+r){
+      cout<<"*";
+    }else{
+      cout<<" ";
+    }
+  }cout<<endl;
+}
+
+// write a program to print sky values
+for(int i=0; i<=127; i++){
+  cout<<i<<" = "<<char(i)<<endl;
+}
+
+// write a prigram to print pattern related to numbers
+for(int r=1; r<=5; r++){
+  for(int c=1; c<=5; c++){
+    if(c<=r){
+      cout<<c;
+    }else{
+      cout<<" ";
+    }
+  }cout<<endl;
+}
+
+// write
+
+for(int r=1; r<=5; r++){
+  for(int c=1; c<=5; c++){
+    if(c<=r){
+      cout<<r;
+    }else{
+      cout<<" ";
+    }
+  }cout<<endl;
+}
+
+// write a program to create a another pattern
+for(int r=1;r<=5;r++){
+  for(int c=1;c<=5;c++){
+    if(c>=r){
+      cout<<char(r+64);
+    }else{
+      cout<<" ";
+    }
+  }cout<<endl;
+}
+
+// write a program to print pattern
+for(int r=1;r<=5;r++){
+  for(int c=1;c<=5;c++){
+    if(c>=r){
+      cout<<char(c+64);   
+     }else{
+      cout<<" ";
+     }
+  }cout<<endl;
+}
+
+
 
 
 

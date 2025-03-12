@@ -1,7 +1,9 @@
-int num = 5;
-// int ans = 1;
-// for(int i = 1 ; i<=num; i++){
-//   ans = ans * i;
-// }
-// cout<<ans;
-
+for(int r=1;r<=5;r++){
+  for(int c=1;c<=5;c++){
+    if(c<=r){
+      cout<<char(c+64);   
+     }else{
+      cout<<" ";
+     }
+  }cout<<endl;
+}
