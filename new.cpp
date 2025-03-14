@@ -485,9 +485,9 @@ int main(){
 // cout<<rev;
 
 
-// sum the digit of a number
-// num=2561
-// output= 14
+// sum digit of a number
+//  num=2561;
+// output= 14;
 
 // int sum=0;
 // int num=2561;
@@ -515,7 +515,7 @@ int main(){
 
 
 // find the greatest digit in a number
-// num = 2471
+// num1 = 2471
 // output = 7
 // int num = 2471;
 // int max = 0;
@@ -625,142 +625,160 @@ int main(){
 
 
 // write a program to print Ap series
-int a,d,n;
-a=3;
-d=3;
-n=10;
-int AP;
-for(int i=1;i<=n;i++){
-  AP=a+(i-1)*d;
-  cout<<AP<<" ";
-}
+// int a,d,n;
+// a=3;
+// d=3;
+// n=10;
+// int AP;
+// for(int i=1;i<=n;i++){
+//   AP=a+(i-1)*d;
+//   cout<<AP<<" ";
+// }
 
 // write a program to print gp series
 
 
-// write a program to print pattern
-for(int r=1;r<=5;r++){
-  for(int c=1;c<=5;c++){
-    if(c<=r){
-      cout<<"*";
-    }else{
-      cout<<" ";
-    }
-  }
-  cout<<endl;
-}
+// write a program to print pattern of right angle triangle
+// for(int r=1;r<=5;r++){
+//   for(int c=1;c<=5;c++){
+//     if(c<=r){
+//       cout<<"*";
+//     }else{
+//       cout<<" ";
+//     }
+//   }
+//   cout<<endl;
+// }
 
-// write a program to print reverse pattern
-for(int r=1; r<=5; r++){
-  for(int c=1;c<=5;c++){
-    if(c>=r){
-      cout<<"*";
-    }else{
-      cout<<" ";
-    }
-  }cout<<endl;
-}
+// write a program to print reverse pattern of inverted left angle triangle
+// for(int r=1; r<=5; r++){
+//   for(int c=1;c<=5;c++){
+//     if(c>=r){
+//       cout<<"*";
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
 
-// write a program to print a pattern
-for(int r=1;r<=5;r++){
-  for(int c=1;c<=5;c++){
-    if(c>=6-r){
-      cout<<"*";
-    }else{
-      cout<<" ";
-    }
-  }cout<<endl;
-}
+// write a program to print a pattern of left angle triangle
+// for(int r=1;r<=5;r++){
+//   for(int c=1;c<=5;c++){
+//     if(c>=6-r){
+//       cout<<"*";
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
 
 
-// write a program to print a reverse pattern 
-for(int r=1;r<=5;r++){
-  for(int c=1;c<=5;c++){
-    if(c<=6-r){
-      cout<<"*";
-    }else{
-      cout<<" ";
-    }
-  }cout<<endl;
-}
+// write a program to print a reverse pattern  of inverted right angle triangle
+// for(int r=1;r<=5;r++){
+//   for(int c=1;c<=5;c++){
+//     if(c<=6-r){
+//       cout<<"*";
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
 
 //write a program to print a pyramid
-int num =5;
-for(int r=1;r<=num;r++){
-  for(int c=1;c<=num*2;c++){
-    if(c>=num+1-r && c<=num-1+r){
-      cout<<"*";
-    }else{
-      cout<<" ";
-    }
-  }cout<<endl;
-}
+
+// for(int r=1;r<=5;r++){
+//   for(int c=1;c<10;c++){
+//     if(c>=5+1-r && c<=5-1+r){
+//       cout<<"*";
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
+
+
+// write a program to print inverted pyramid
+// for(int r=1;r<=5;r++){
+//   for(int c=1;c<=9;c++){
+//     if(c>=r && c<=10-r){
+//       cout<<"*";
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
+
 
 // write a program to print sky values
-for(int i=0; i<=127; i++){
-  cout<<i<<" = "<<char(i)<<endl;
-}
+// for(int i=0; i<=127; i++){
+//   cout<<i<<" = "<<char(i)<<endl;
+// }
 
 // write a prigram to print pattern related to numbers
-for(int r=1; r<=5; r++){
-  for(int c=1; c<=5; c++){
-    if(c<=r){
-      cout<<c;
-    }else{
-      cout<<" ";
-    }
-  }cout<<endl;
-}
+// for(int r=1; r<=5; r++){
+//   for(int c=1; c<=5; c++){
+//     if(c<=r){
+//       cout<<c;
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
 
 // write
 
-for(int r=1; r<=5; r++){
-  for(int c=1; c<=5; c++){
-    if(c<=r){
-      cout<<r;
-    }else{
-      cout<<" ";
-    }
-  }cout<<endl;
-}
+// for(int r=1; r<=5; r++){
+//   for(int c=1; c<=5; c++){
+//     if(c<=r){
+//       cout<<r;
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
 
 // write a program to create a another pattern
-for(int r=1;r<=5;r++){
-  for(int c=1;c<=5;c++){
-    if(c>=r){
-      cout<<char(r+64);
+// for(int r=1;r<=5;r++){
+//   for(int c=1;c<=5;c++){
+//     if(c>=r){
+//       cout<<char(r+64);
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
+
+// write a program to print pattern
+// for(int r=1;r<=5;r++){
+//   for(int c=1;c<=5;c++){
+//     if(c>=r){
+//       cout<<char(c+64);   
+//      }else{
+//       cout<<" ";
+//      }
+//   }cout<<endl;
+// }
+
+// write a program to print diamond
+for(int r=1;r<5;r++){
+  for(int c=1;c<9;c++){
+    if(c>=6-r && c<=4+r){
+      cout<<"*";
     }else{
       cout<<" ";
     }
   }cout<<endl;
 }
 
-// write a program to print pattern
 for(int r=1;r<=5;r++){
-  for(int c=1;c<=5;c++){
-    if(c>=r){
-      cout<<char(c+64);   
-     }else{
+  for(int c=1;c<=9;c++){
+    if(c>=r && c<=10-r){
+      cout<<"*";
+    }else{
       cout<<" ";
-     }
+    }
   }cout<<endl;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
