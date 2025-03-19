@@ -547,6 +547,7 @@ int main(){
 
 
 // check the given number is palindrome or not
+
 // int num,rev=0,temp;
 // cout<<"enter a number:";
 // cin>>num;
@@ -580,7 +581,7 @@ int main(){
 // temp=num;
 // while(num>0){
 //   int digit=num%10;
-//   ans+=digit*digit*digit*digit;
+//   ans+=digit*digit*digit;
 //   num/=10;
 // }
 // if(ans==temp){
@@ -627,7 +628,7 @@ int main(){
 // write a program to print Ap series
 // int a,d,n;
 // a=3;
-// d=3;
+// d=4;
 // n=10;
 // int AP;
 // for(int i=1;i<=n;i++){
@@ -636,6 +637,38 @@ int main(){
 // }
 
 // write a program to print gp series
+
+
+// write a program to print fibonacci
+
+int num, fi=0, se=1,nx;
+cout<<"enter a number:";
+cin>>num;
+for(int i=1; i<=num; i++){
+  if(i==1){
+    cout<<fi;
+    continue;
+  }
+  if(i==2){
+    cout<<se;
+    continue;
+  }
+  nx=fi+se;
+  fi=se;
+  se=nx;
+  cout<<nx;
+}
+
+
+int num, first=0, second=1, next;
+cout<<"enter a number:";
+cin>>num;
+for(int i=0; i<num; i++){
+  cout<<first;
+  next=first+second;
+  first=second;
+  second=next;
+}
 
 
 // write a program to print pattern of right angle triangle
@@ -760,25 +793,25 @@ int main(){
 // }
 
 // write a program to print diamond
-for(int r=1;r<5;r++){
-  for(int c=1;c<9;c++){
-    if(c>=6-r && c<=4+r){
-      cout<<"*";
-    }else{
-      cout<<" ";
-    }
-  }cout<<endl;
-}
+// for(int r=1;r<5;r++){
+//   for(int c=1;c<9;c++){
+//     if(c>=6-r && c<=4+r){
+//       cout<<"*";
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
 
-for(int r=1;r<=5;r++){
-  for(int c=1;c<=9;c++){
-    if(c>=r && c<=10-r){
-      cout<<"*";
-    }else{
-      cout<<" ";
-    }
-  }cout<<endl;
-}
+// for(int r=1;r<=5;r++){
+//   for(int c=1;c<=9;c++){
+//     if(c>=r && c<=10-r){
+//       cout<<"*";
+//     }else{
+//       cout<<" ";
+//     }
+//   }cout<<endl;
+// }
 
 }
 
