@@ -641,34 +641,58 @@ int main(){
 
 // write a program to print fibonacci
 
-int num, fi=0, se=1,nx;
-cout<<"enter a number:";
-cin>>num;
-for(int i=1; i<=num; i++){
-  if(i==1){
-    cout<<fi;
-    continue;
-  }
-  if(i==2){
-    cout<<se;
-    continue;
-  }
-  nx=fi+se;
-  fi=se;
-  se=nx;
-  cout<<nx;
-}
+// int num, fi=0, se=1,nx;
+// cout<<"enter a number:";
+// cin>>num;
+// for(int i=1; i<=num; i++){
+//   if(i==1){
+//     cout<<fi;
+//     continue;
+//   }
+//   if(i==2){
+//     cout<<se;
+//     continue;
+//   }
+//   nx=fi+se;
+//   fi=se;
+//   se=nx;
+//   cout<<nx;
+// }
 
 
-int num, first=0, second=1, next;
-cout<<"enter a number:";
-cin>>num;
-for(int i=0; i<num; i++){
-  cout<<first;
-  next=first+second;
-  first=second;
-  second=next;
+// int num, first=0, second=1, next;
+// cout<<"enter a number:";
+// cin>>num;
+// for(int i=0; i<num; i++){
+//   cout<<first;
+//   next=first+second;
+//   first=second;
+//   second=next;
+// }
+
+
+// write a program to print LCM
+int num1=24, num2=18, LCM;
+int mx=(num1>num2)?num1:num2;
+LCM=mx;
+while(1){
+  if(LCM%num1==0 && LCM%num2==0){
+    break;
+  }
+  LCM=mx+LCM;
 }
+cout<<LCM;
+
+// write a program to print HCF
+int num1=24, num2=18, HCF;
+int min=(num1<num2)?num1:num2;
+for(int i=1; i<=min; i++){
+  if(num1%i==0 && num2%i==0){
+    HCF=i;
+}
+}
+cout<<HCF;
+
 
 
 // write a program to print pattern of right angle triangle
