@@ -672,26 +672,26 @@ int main(){
 
 
 // write a program to print LCM
-int num1=24, num2=18, LCM;
-int mx=(num1>num2)?num1:num2;
-LCM=mx;
-while(1){
-  if(LCM%num1==0 && LCM%num2==0){
-    break;
-  }
-  LCM=mx+LCM;
-}
-cout<<LCM;
+// int num1=24, num2=18, LCM;
+// int mx=(num1>num2)?num1:num2;
+// LCM=mx;
+// while(1){
+//   if(LCM%num1==0 && LCM%num2==0){
+//     break;
+//   }
+//   LCM=mx+LCM;
+// }
+// cout<<LCM;
 
 // write a program to print HCF
-int num1=24, num2=18, HCF;
-int min=(num1<num2)?num1:num2;
-for(int i=1; i<=min; i++){
-  if(num1%i==0 && num2%i==0){
-    HCF=i;
-}
-}
-cout<<HCF;
+// int num1=24, num2=18, HCF;
+// int min=(num1<num2)?num1:num2;
+// for(int i=1; i<=min; i++){
+//   if(num1%i==0 && num2%i==0){
+//     HCF=i;
+// }
+// }
+// cout<<HCF;
 
 
 
@@ -836,6 +836,147 @@ cout<<HCF;
 //     }
 //   }cout<<endl;
 // }
+
+
+// write a program to take a loan
+
+// string company;
+// cout<<"enter a company:";
+// cin>>company;
+// if(company=="bajaj"){
+//     int salary;
+//     cout<<"enter a salary:";
+//     cin>>salary;
+//     if(salary>0 && salary<=20000){
+//         int civil;
+//         cout<<"enter a civil:";
+//         cin>>civil;
+//         if(civil>=600 && civil<=700){
+//             int loan=15000;
+//             cout<<"get a loan:"<<loan<<endl;
+//             if(loan==15000){
+//                int simpleInterest;
+//                simpleInterest=loan*10*2/100;
+//                cout<<"the money with interest of 10 percent in 2 years:"<<simpleInterest<<endl;
+//                int totalMoney;
+//                totalMoney=loan+simpleInterest;
+//                cout<<"total money you give to the company:"<<totalMoney<<endl;
+//                int perMonthMoney;
+//                perMonthMoney=totalMoney/24;
+//                cout<<"money give to the company in per month:"<<perMonthMoney<<endl;
+//             }
+
+//         }else{
+//             cout<<"invalid civil";
+//         }
+
+//     }else if(salary>20000){
+//         int civil;
+//         cout<<"enter a civil:";
+//         cin>>civil;
+//         if(civil==750){
+//             int loan=50000;
+//             cout<<"get a loan:"<<loan<<endl;
+//             if(loan==50000){
+//                 int simpleInterest;
+//                 simpleInterest=loan*10*4/100;
+//                 cout<<"the money with interest of 10 percent in 4 year: "<<simpleInterest<<endl;
+//                 int totalMoney;
+//                totalMoney=loan+simpleInterest;
+//                cout<<"total money you give to the company:"<<totalMoney<<endl;
+//                int perMonthMoney;
+//                perMonthMoney=totalMoney/48;
+//                cout<<"money give to the company in per month:"<<perMonthMoney<<endl;
+
+//             }
+//         }else{
+//             cout<<"invalid civil";
+//         }
+
+//     }else{
+//         cout<<"invalid salary";
+//     }
+    
+// }else{
+//     cout<<"invalid company";
+// }
+
+
+// write a program for flight booking
+
+string destination;
+cout<<"enter a destination:";
+cin>>destination;
+if(destination=="j&k"){
+  int date;
+  string month;
+  cout<<"enter a date:";
+  cin>>date;
+  cout<<"enter a month:";
+  cin>>month;
+  if(date>0 && date<7 && month=="april"){
+    int bookingCharges = 20000, discount, totalCharges;
+    cout<<" flight booking charge of Jammu & Kashmir:"<<bookingCharges<<endl;
+    discount = bookingCharges*40/100;
+    cout<<"discount of 40%:"<<discount<<endl;
+    totalCharges = bookingCharges - discount;
+    cout<<"after discount the charges will be:"<<totalCharges<<endl;
+
+  }
+  else if(date>=7 && date<=30 && month=="april"){
+    int bookingCharges = 20000, discount, totalCharges;
+    cout<<" flight booking charge of Jammu & Kashmir:"<<bookingCharges<<endl;
+    discount = bookingCharges*20/100;
+    cout<<"discount of 20%:"<<discount<<endl;
+    totalCharges = bookingCharges - discount;
+    cout<<"after discount the charges will be:"<<totalCharges<<endl;
+
+  }
+  else{
+    cout<<"date and month is expired for the discount:no discount";
+  }
+
+
+}
+else if(destination=="goa"){
+  int date;
+  string month;
+  cout<<"enter a date:";
+  cin>>date;
+  cout<<"enter a month:";
+  cin>>month;
+  if(date>0 && date<7 && month=="april"){
+    int bookingCharges = 15000, discount, totalCharges;
+    cout<<" flight booking charge of Goa:"<<bookingCharges<<endl;
+    discount = bookingCharges*40/100;
+    cout<<"discount of 40%:"<<discount<<endl;
+    totalCharges = bookingCharges - discount;
+    cout<<"after discount the charges will be:"<<totalCharges<<endl;
+
+  }
+  else if(date>=7 && date<=30 && month=="april"){
+    int bookingCharges = 15000, discount, totalCharges;
+    cout<<" flight booking charge of Goa:"<<bookingCharges<<endl;
+    discount = bookingCharges*20/100;
+    cout<<"discount of 20%:"<<discount<<endl;
+    totalCharges = bookingCharges - discount;
+    cout<<"after discount the charges will be:"<<totalCharges<<endl;
+
+
+  }
+  else{
+    cout<<"date and month is expired for the discount:no discount";
+  }
+
+} 
+else{
+  cout<<"flight for this destinaion is not available";
+}
+
+
+
+
+
 
 }
 
